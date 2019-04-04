@@ -23,8 +23,8 @@ Example Demonstrations:
 - Importance of using the Holder pattern to building fast, scalable and efficient ListViews
 - Power of Fragments and why use them ? 
 - Harnessing Multi-Threading in Android, when to use Multi-threading and Why ?
-- How to choose your data structures ? When to use a certain data structures ? 
-- Demonstration of poor choice of data structure ? 
+- How to choose your data structures ? When to use certain data structures ? 
+- Demonstration of poor choice of data structure  
 
 
 
