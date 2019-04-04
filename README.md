@@ -5,7 +5,7 @@ Helps the developer get an intuitive understanding of Android Bulding Components
 Examples of poor design demonstrated alongside with best practices.
 Tests your understanding of Android Development with quizzes of different levels of difficulty
 This is an ongoing project with a long term goal of teaching, demonstrating and testing understanding of best Practices in Android
-Has an Interview Prep Tests and Quizzes with Gotcha' s
+Has Comprehensive Interview Prep Tests and Quizzes with Gotcha' s
 
 Example Demonstrations: 
 
