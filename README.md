@@ -4,8 +4,7 @@ In a nutshell, it contains demonstration of Android Powerful features and Best P
 Helps the developer get an intuitive understanding of Android Bulding Components and Design Practices.
 Examples of poor design demonstrated alongside with best practices.
 Tests your understanding of Android Development with quizzes of different levels of difficulty.
-This is an ongoing project with a long term goal of teaching, providing interactive demos and testing understanding of best Practices in Android. t
-Has Comprehensive Interview Prep Tests and Quizzes with Gotcha' s.
+This is an ongoing project with a long term goal of teaching, providing interactive demos and testing understanding of best Practices in Android. Offers Comprehensive Interview Prep Tests and Quizzes with Gotcha' s.
 
 Example Demonstrations: 
 
