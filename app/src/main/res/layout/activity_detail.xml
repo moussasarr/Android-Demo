@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL ACTIVITY"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="#1da38c"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:drawSelectorOnTop="true"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:entries="@array/actions"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        >
+
+        <Button
+            android:padding="40dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/returnSelection"
+            android:text="RETURN SELECTION"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:padding="40dp"
+            android:id="@+id/performSelection"
+            android:layout_width="wrap_content"
+            android:text="PERFORM SELEC.."
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

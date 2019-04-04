@@ -1,0 +1,263 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+        <LinearLayout
+            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/darkGrey"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/genInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginHorizontal="10dp"
+            android:layout_above="@id/bottomLayout"
+            >
+            <TextView
+                android:id="@+id/trmess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/train_message"
+                android:background="@color/greyblue"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:paddingHorizontal="8dp"
+                />
+            
+            <TextView
+                android:id="@+id/currently"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="currently:"
+                android:textColor="#D3D3D3"
+                android:textSize="22sp"
+                android:layout_below="@id/trmess"
+                android:paddingHorizontal="8dp"
+                />
+
+
+            <TextView
+                android:id="@+id/trainName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/currently"
+                android:textSize="25sp"
+                android:text="@string/train_name"
+                android:textColor="#000000"
+                android:paddingHorizontal="8dp"
+                />
+
+            <Button
+                android:id="@+id/bookButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOOK"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/redish"
+                android:layout_below="@id/trmess"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/green"
+            android:weightSum="32"
+
+            android:layout_height="wrap_content">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:weightSum="32"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+
+                >
+                <Space
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:src="@drawable/arrowup"
+                    android:layout_weight="6"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="NorthBound\n 50min"
+                    android:layout_weight="7"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:src="@drawable/arrowdown"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:scaleType="fitCenter"
+                    android:layout_height="wrap_content" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Southbound\n 20min"
+                    android:layout_weight="7"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:weightSum="32"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+
+                >
+               <Space
+                   android:layout_weight="1"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent" />
+                <ImageView
+                    android:src="@drawable/gps"
+                    android:layout_weight="6"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="NorthBound\n 50min"
+                    android:layout_weight="7"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                     android:layout_weight="1"
+                    />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:src="@drawable/news"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:scaleType="fitCenter"
+                    android:layout_height="wrap_content" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Southbound\n 20min"
+                    android:layout_weight="7"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
