@@ -21,6 +21,7 @@ Example Demonstrations:
 - Power of Custom ListViews and Custom ListView Adapters vs non-custom Ones
 - Importance of using the Holder pattern to building fast, scalable and efficient ListViews
 - Power of Fragments and why use them ? 
+- Why always use the Fragment Manager whenever convenient ?
 - Harnessing Multi-Threading in Android, when to use Multi-threading and Why ?
 - How to choose your data structures ? When to use certain data structures ? 
 - Demonstration of poor choice of data structures  
